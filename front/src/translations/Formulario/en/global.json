@@ -1,0 +1,12 @@
+{
+    "titulo": "Satisfaction Survey",
+    "pregunta_satisfaccion": "On a scale from 1 to 5, how was the tour?",
+    "pregunta_amabilidad": "How was the guide's friendliness?",
+    "pregunta_camino": "How was the route during the tour?",
+    "pregunta_recomendacion": "Would you recommend this tour to others?",
+    "pregunta_transporte": "How was your experience with the transport?",
+    "pregunta_costo": "How would you rate the cost of the tour?",
+    "pregunta_opinion": "What areas do you think we could improve?",
+    "enviar": "Submit",
+    "enviando": "Submitting..."
+}

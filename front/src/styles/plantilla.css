@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* header */
+header {
+    height: 100px;
+    background-color: rgb(255, 92, 92);
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    position: relative;
+}
+
+header .material-symbols-outlined {
+    font-size: 30px;
+}
+
+header .logo {
+    text-align: center;
+    flex-grow: 1;
+    font-size: 24px;
+}
+
+header i {
+    font-size: 30px;
+}
+
+header .logo-container {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+/* linea de tiempo */
+.timeline {
+    padding: 100px 0 50px 0;
+}
+
+.carousel {
+    position: relative;
+}
+
+.carousel-indicators {
+    top: -50px;
+    width: 75%;
+    margin-left: 14%;
+    position: static;
+    margin-bottom: 40px;
+}
+
+.experience-slide-one {
+    padding: 0px 50px;
+}
+
+.carousel-indicators button {
+    text-indent: 0!important;
+    background: 0 0;
+    border: none;
+    margin: 0!important;
+    position: relative;
+    width: 25%!important;
+}
+
+.carousel-indicators button::before {
+    position: absolute;
+    content: "";
+    border-top: 1px solid black;
+    width: 100%;
+    left: 0;
+}
+
+.carousel-indicators button h4 {
+    margin-top: -41px;
+    position: absolute;
+    left: 52%;
+    transform: translateX(-50%);
+}
+
+.carousel-indicators button i {
+    margin-top: -7px;
+    position: absolute;
+}
+
+.carousel-indicators button.active i {
+    color: #2ecc71;
+}
+
+.carousel-indicators button.active h4 {
+    color: #2ecc71;
+    font-size: 24px;
+    position: absolute;
+    text-align: center;
+    margin-top: -49px;
+}
+
+.experience-slide-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.experience-slide-text h3 {
+    margin: 10px 0 20px 0;
+    font-size: 27px;
+    color: #232b55;
+}
+
+.experience-slide-text p {
+    font-size: 15px;
+}
+
+.experience-slide-text i {
+    font-size: 2rem;
+    display: inline-block;
+    line-height: 1;
+    vertical-align: middle;
+    margin: 10px 0 0px 0;
+    background-color: #d3d3d3;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    width: 2%;
+    opacity: .8;
+}
+
+.carousel-control-next-icon i, .carousel-control-prev-icon i {
+    font-size: 30px;
+    color: #333;
+}
+
+/* Botones centrados */
+.nav-pills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px; /* Espacio entre los botones */
+    flex-wrap: nowrap;
+}
+
+.nav-pills .nav-link {
+    background-color: #2ecc71; /* Color de fondo */
+    color: white;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-align: center;
+    flex-grow: 1;
+    border: 2px solid #27ae60; /* Borde visible */
+}
+
+.nav-pills .nav-link:hover {
+    background-color: #27ae60; /* Color al hacer hover */
+}
+
+@media (max-width: 400px) {
+    .nav-pills {
+        gap: 10px; /* Reduce el espacio entre botones en pantallas pequeñas */
+    }
+
+    .nav-pills .nav-link {
+        padding: 8px 15px; /* Ajusta el padding en pantallas pequeñas */
+        font-size: 1rem; /* Ajusta el tamaño de la fuente */
+    }
+}
+
+/* iconos */
+#iconos {
+    padding: 0;
+    background-color: rgba(143, 143, 165, 0.6);
+}
+
+.contenido-iconos {
+    padding: 10px 10px 0 10px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.contenido-iconos div {
+    flex: 1;
+    margin: 20px 0px;
+    border-right: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+#last-icono {
+    border: none;
+}
+
+.contenido-iconos div h6 {
+    color: white;
+    font-size: 18px;
+    font-weight: 100;
+    margin: 10px 0px;
+}
+
+/* footer */
+footer {
+    background-color: rgb(0, 0, 0);
+    color: #cccccc4a;
+    text-align: center;
+    padding: 10px 0px;
+}

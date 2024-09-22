@@ -1,0 +1,12 @@
+{
+    "titulo": "Encuesta de Satisfacción",
+    "pregunta_satisfaccion": "En una escala del 1 al 5, ¿cómo fue el tour?",
+    "pregunta_amabilidad": "¿Cómo fue la amabilidad del guía?",
+    "pregunta_camino": "¿Cómo fue la ruta durante el tour?",
+    "pregunta_recomendacion": "¿Recomendarías este tour a otros?",
+    "pregunta_transporte": "¿Cómo fue tu experiencia con el transporte?",
+    "pregunta_costo": "¿Cómo calificarías el costo del tour?",
+    "pregunta_opinion": "¿En qué áreas crees que podríamos mejorar?",
+    "enviar": "Enviar",
+    "enviando": "Enviando..."
+}
